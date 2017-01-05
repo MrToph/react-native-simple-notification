@@ -1,0 +1,28 @@
+{
+  "name": "react-native-simple-notification",
+  "version": "1.0.1",
+  "author": "Christoph Michel http://cmichel.io",
+  "private": false,
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrToph/react-native-simple-notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrToph/react-native-simple-notification/issues"
+  },
+  "homepage": "https://github.com/MrToph/react-native-simple-notification",
+  "keywords": [
+    "react-native",
+    "android",
+    "notification",
+    "local"
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.38.0"
+  }
+}
