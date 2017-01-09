@@ -1,16 +1,51 @@
 {
-  "name": "react-native-simple-notification",
-  "version": "1.0.1",
-  "author": "Christoph Michel http://cmichel.io",
-  "private": false,
-  "license": "Unlicense",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MrToph/react-native-simple-notification.git"
+  "_args": [
+    [
+      "git+https://github.com/MrToph/react-native-simple-notification.git",
+      "C:\\Users\\Christoph\\Dropbox\\workspace\\MobileDevelopment\\PHUL"
+    ]
+  ],
+  "_from": "git+https://github.com/MrToph/react-native-simple-notification.git",
+  "_id": "react-native-simple-notification@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-simple-notification",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/MrToph/react-native-simple-notification/master/package.json",
+      "gitUrl": "git://github.com/MrToph/react-native-simple-notification.git",
+      "httpsUrl": "git+https://github.com/MrToph/react-native-simple-notification.git",
+      "shortcut": "github:MrToph/react-native-simple-notification",
+      "ssh": "git@github.com:MrToph/react-native-simple-notification.git",
+      "sshUrl": "git+ssh://git@github.com/MrToph/react-native-simple-notification.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "git+https://github.com/MrToph/react-native-simple-notification.git",
+    "rawSpec": "git+https://github.com/MrToph/react-native-simple-notification.git",
+    "scope": null,
+    "spec": "git+https://github.com/MrToph/react-native-simple-notification.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/MrToph/react-native-simple-notification.git#74953218f85cd5a51bd1fe488c162c7cc551d013",
+  "_shasum": "b7bdbebad4852b701ec21e496fd4e621e3b7b4e3",
+  "_shrinkwrap": null,
+  "_spec": "git+https://github.com/MrToph/react-native-simple-notification.git",
+  "_where": "C:\\Users\\Christoph\\Dropbox\\workspace\\MobileDevelopment\\PHUL",
+  "author": {
+    "name": "Christoph Michel http://cmichel.io"
   },
   "bugs": {
     "url": "https://github.com/MrToph/react-native-simple-notification/issues"
   },
+  "dependencies": {},
+  "description": "**Currently Android Only**",
+  "devDependencies": {},
+  "gitHead": "74953218f85cd5a51bd1fe488c162c7cc551d013",
   "homepage": "https://github.com/MrToph/react-native-simple-notification",
   "keywords": [
     "react-native",
@@ -18,11 +53,22 @@
     "notification",
     "local"
   ],
+  "license": "Unlicense",
+  "name": "react-native-simple-notification",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.38.0"
+  },
+  "private": false,
+  "readme": "## React Native Simple Notification\r\n**Currently Android Only**\r\n\r\nAdds local notifications to Android.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrToph/react-native-simple-notification.git"
+  },
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
-  "peerDependencies": {
-    "react-native": ">=0.38.0"
-  }
+  "version": "1.0.1"
 }
